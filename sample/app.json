@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "DevRevExpoSDKSample",
+    "slug": "devrev-expo-sdk-sample",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.devrev.sdk.reactnative.expo.sample",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification"
+        ],
+        "UIUserInterfaceStyle": "light"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "ai.devrev.sdk.reactnative.expo.sample",
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "permissions": [
+        "NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@devrev/sdk-react-native-expo-plugin"
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/splash-icon.png",
+          "enableBackgroundRemoteNotifications": true
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          },
+          "podfileProperties": {
+            "use_modular_headers!": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "501ce10b-b735-428d-8429-6616662accd7"
+      }
+    }
+  }
+}
