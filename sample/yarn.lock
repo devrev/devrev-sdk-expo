@@ -762,11 +762,9 @@
     source-map-support "^0.5.16"
 
 "@babel/runtime@^7.20.0", "@babel/runtime@^7.25.0", "@babel/runtime@^7.8.4":
-  version "7.26.0"
-  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.26.0.tgz"
-  integrity sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==
-  dependencies:
-    regenerator-runtime "^0.14.0"
+  version "7.27.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.27.6.tgz#ec4070a04d76bae8ddbb10770ba55714a417b7c6"
+  integrity sha512-vbavdySgbTTrmFE+EsiqUTzlOr5bzlnJtUv9PynGCAKvfQqjIXbvFdumPM/GxMDfyuGMJaJAU6TO4zc1Jf1i8Q==
 
 "@babel/template@^7.25.0", "@babel/template@^7.25.9", "@babel/template@^7.3.3":
   version "7.25.9"
@@ -811,10 +809,15 @@
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
 
-"@devrev/sdk-react-native@1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@devrev/sdk-react-native/-/sdk-react-native-1.1.4.tgz#51709e4e240ee945ae77bd10f187d64f2d80db2e"
-  integrity sha512-+m4NLpWodyfmGYFenNaE4H/Rv8UFTbjevFdigCT8F/dsE5HWXKsY/y8cigPz3q8qFfYTWkQJpMFQ8njE5jsFBA==
+"@devrev/sdk-react-native-expo-plugin@1.0.0-beta.7":
+  version "1.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@devrev/sdk-react-native-expo-plugin/-/sdk-react-native-expo-plugin-1.0.0-beta.7.tgz#89a74dc8c5ac2ed48469bca7387a2a17c4a0c6c9"
+  integrity sha512-IKnNIkM+XiNnCbtfWzKaVhB3y7byK0TAYEvWDHwcN79AdLOzJRtPxG1ow9ng09yZwM5xC73Sed0sAgZHMJ3Mtg==
+
+"@devrev/sdk-react-native@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@devrev/sdk-react-native/-/sdk-react-native-1.1.5.tgz#12ca4c06a7985b18cd659a42405ad71e85e3db9c"
+  integrity sha512-KQYzCVwDgFaK/I9SmpdxQag5csX6ag5xD1xf1tvHcKW9YIrj6XaWao4p9JOK7hEbLQrubuUfjcRQfzwpPnve+g==
 
 "@expo/bunyan@^4.0.0":
   version "4.0.1"
@@ -5558,11 +5561,6 @@ regenerator-runtime@^0.13.2:
   version "0.13.11"
   resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
   integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
-
-regenerator-runtime@^0.14.0:
-  version "0.14.1"
-  resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz"
-  integrity sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==
 
 regenerator-transform@^0.15.2:
   version "0.15.2"
