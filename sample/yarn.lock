@@ -811,10 +811,15 @@
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
 
-"@devrev/sdk-react-native@1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@devrev/sdk-react-native/-/sdk-react-native-1.1.4.tgz#51709e4e240ee945ae77bd10f187d64f2d80db2e"
-  integrity sha512-+m4NLpWodyfmGYFenNaE4H/Rv8UFTbjevFdigCT8F/dsE5HWXKsY/y8cigPz3q8qFfYTWkQJpMFQ8njE5jsFBA==
+"@devrev/sdk-react-native-expo-plugin@1.0.0-beta.7":
+  version "1.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@devrev/sdk-react-native-expo-plugin/-/sdk-react-native-expo-plugin-1.0.0-beta.7.tgz#89a74dc8c5ac2ed48469bca7387a2a17c4a0c6c9"
+  integrity sha512-IKnNIkM+XiNnCbtfWzKaVhB3y7byK0TAYEvWDHwcN79AdLOzJRtPxG1ow9ng09yZwM5xC73Sed0sAgZHMJ3Mtg==
+
+"@devrev/sdk-react-native@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@devrev/sdk-react-native/-/sdk-react-native-1.1.5.tgz#12ca4c06a7985b18cd659a42405ad71e85e3db9c"
+  integrity sha512-KQYzCVwDgFaK/I9SmpdxQag5csX6ag5xD1xf1tvHcKW9YIrj6XaWao4p9JOK7hEbLQrubuUfjcRQfzwpPnve+g==
 
 "@expo/bunyan@^4.0.0":
   version "4.0.1"
@@ -3912,9 +3917,9 @@ ignore@^5.2.0:
   integrity sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==
 
 image-size@^1.0.2:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/image-size/-/image-size-1.2.0.tgz"
-  integrity sha512-4S8fwbO6w3GeCVN6OPtA9I5IGKkcDMPcKndtUlpJuCwu7JLjtj7JZpwqLuyY2nrmQT3AWsCJLSKPsc2mPBSl3w==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/image-size/-/image-size-1.2.1.tgz#ee118aedfe666db1a6ee12bed5821cde3740276d"
+  integrity sha512-rH+46sQJ2dlwfjfhCyNx5thzrv+dtmBIhPHk0zgRUukHzZ/kRueTJXoYYsclBaKcSMBWuGbOFXtioLpzTb5euw==
   dependencies:
     queue "6.0.2"
 
