@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@devrev/sdk-react-native": "1.1.5",
-    "@devrev/sdk-react-native-expo-plugin": "2.0.0",
+    "@devrev/sdk-react-native-expo-plugin": "2.1.0",
     "@react-native-firebase/app": "^21.7.1",
     "@react-native-firebase/messaging": "^21.7.1",
     "expo": "~52.0.27",
